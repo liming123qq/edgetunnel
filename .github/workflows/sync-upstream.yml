@@ -18,7 +18,7 @@ jobs:
 
       - name: Add upstream
         run: |
-          git remote add upstream https://github.com/LibreSpark/LibreTV.git
+          git remote add upstream https://github.com/cmliu/edgetunnel.git
           git fetch upstream
           git merge upstream/main --allow-unrelated-histories -m "🔄 Sync from upstream"
           git push origin main
